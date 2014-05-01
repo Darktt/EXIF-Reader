@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559325951911ED6F00DBD6EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325941911ED6F00DBD6EE /* Foundation.framework */; };
+		559325971911ED6F00DBD6EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325961911ED6F00DBD6EE /* CoreGraphics.framework */; };
+		559325991911ED6F00DBD6EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325981911ED6F00DBD6EE /* UIKit.framework */; };
+		5593259F1911ED6F00DBD6EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5593259D1911ED6F00DBD6EE /* InfoPlist.strings */; };
+		559325A11911ED6F00DBD6EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559325A01911ED6F00DBD6EE /* main.m */; };
+		559325A51911ED6F00DBD6EE /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559325A41911ED6F00DBD6EE /* DTAppDelegate.m */; };
+		559325A71911ED6F00DBD6EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559325A61911ED6F00DBD6EE /* Images.xcassets */; };
+		559325AE1911ED6F00DBD6EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325AD1911ED6F00DBD6EE /* XCTest.framework */; };
+		559325AF1911ED6F00DBD6EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325941911ED6F00DBD6EE /* Foundation.framework */; };
+		559325B01911ED6F00DBD6EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325981911ED6F00DBD6EE /* UIKit.framework */; };
+		559325B81911ED6F00DBD6EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559325B61911ED6F00DBD6EE /* InfoPlist.strings */; };
+		559325BA1911ED6F00DBD6EE /* DTEXIFReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559325B91911ED6F00DBD6EE /* DTEXIFReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559325B11911ED6F00DBD6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559325891911ED6F00DBD6EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559325901911ED6F00DBD6EE;
+			remoteInfo = DTEXIFReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559325911911ED6F00DBD6EE /* DTEXIFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTEXIFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559325941911ED6F00DBD6EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		559325961911ED6F00DBD6EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		559325981911ED6F00DBD6EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5593259C1911ED6F00DBD6EE /* DTEXIFReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTEXIFReader-Info.plist"; sourceTree = "<group>"; };
+		5593259E1911ED6F00DBD6EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		559325A01911ED6F00DBD6EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		559325A21911ED6F00DBD6EE /* DTEXIFReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTEXIFReader-Prefix.pch"; sourceTree = "<group>"; };
+		559325A31911ED6F00DBD6EE /* DTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		559325A41911ED6F00DBD6EE /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
+		559325A61911ED6F00DBD6EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		559325AC1911ED6F00DBD6EE /* DTEXIFReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTEXIFReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559325AD1911ED6F00DBD6EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		559325B51911ED6F00DBD6EE /* DTEXIFReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTEXIFReaderTests-Info.plist"; sourceTree = "<group>"; };
+		559325B71911ED6F00DBD6EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		559325B91911ED6F00DBD6EE /* DTEXIFReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTEXIFReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5593258E1911ED6F00DBD6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559325971911ED6F00DBD6EE /* CoreGraphics.framework in Frameworks */,
+				559325991911ED6F00DBD6EE /* UIKit.framework in Frameworks */,
+				559325951911ED6F00DBD6EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559325A91911ED6F00DBD6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559325AE1911ED6F00DBD6EE /* XCTest.framework in Frameworks */,
+				559325B01911ED6F00DBD6EE /* UIKit.framework in Frameworks */,
+				559325AF1911ED6F00DBD6EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559325881911ED6F00DBD6EE = {
+			isa = PBXGroup;
+			children = (
+				5593259A1911ED6F00DBD6EE /* DTEXIFReader */,
+				559325B31911ED6F00DBD6EE /* DTEXIFReaderTests */,
+				559325931911ED6F00DBD6EE /* Frameworks */,
+				559325921911ED6F00DBD6EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559325921911ED6F00DBD6EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559325911911ED6F00DBD6EE /* DTEXIFReader.app */,
+				559325AC1911ED6F00DBD6EE /* DTEXIFReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559325931911ED6F00DBD6EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559325941911ED6F00DBD6EE /* Foundation.framework */,
+				559325961911ED6F00DBD6EE /* CoreGraphics.framework */,
+				559325981911ED6F00DBD6EE /* UIKit.framework */,
+				559325AD1911ED6F00DBD6EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5593259A1911ED6F00DBD6EE /* DTEXIFReader */ = {
+			isa = PBXGroup;
+			children = (
+				559325A31911ED6F00DBD6EE /* DTAppDelegate.h */,
+				559325A41911ED6F00DBD6EE /* DTAppDelegate.m */,
+				559325A61911ED6F00DBD6EE /* Images.xcassets */,
+				5593259B1911ED6F00DBD6EE /* Supporting Files */,
+			);
+			path = DTEXIFReader;
+			sourceTree = "<group>";
+		};
+		5593259B1911ED6F00DBD6EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5593259C1911ED6F00DBD6EE /* DTEXIFReader-Info.plist */,
+				5593259D1911ED6F00DBD6EE /* InfoPlist.strings */,
+				559325A01911ED6F00DBD6EE /* main.m */,
+				559325A21911ED6F00DBD6EE /* DTEXIFReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559325B31911ED6F00DBD6EE /* DTEXIFReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				559325B91911ED6F00DBD6EE /* DTEXIFReaderTests.m */,
+				559325B41911ED6F00DBD6EE /* Supporting Files */,
+			);
+			path = DTEXIFReaderTests;
+			sourceTree = "<group>";
+		};
+		559325B41911ED6F00DBD6EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559325B51911ED6F00DBD6EE /* DTEXIFReaderTests-Info.plist */,
+				559325B61911ED6F00DBD6EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559325901911ED6F00DBD6EE /* DTEXIFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559325BD1911ED6F00DBD6EE /* Build configuration list for PBXNativeTarget "DTEXIFReader" */;
+			buildPhases = (
+				5593258D1911ED6F00DBD6EE /* Sources */,
+				5593258E1911ED6F00DBD6EE /* Frameworks */,
+				5593258F1911ED6F00DBD6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTEXIFReader;
+			productName = DTEXIFReader;
+			productReference = 559325911911ED6F00DBD6EE /* DTEXIFReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559325AB1911ED6F00DBD6EE /* DTEXIFReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559325C01911ED6F00DBD6EE /* Build configuration list for PBXNativeTarget "DTEXIFReaderTests" */;
+			buildPhases = (
+				559325A81911ED6F00DBD6EE /* Sources */,
+				559325A91911ED6F00DBD6EE /* Frameworks */,
+				559325AA1911ED6F00DBD6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559325B21911ED6F00DBD6EE /* PBXTargetDependency */,
+			);
+			name = DTEXIFReaderTests;
+			productName = DTEXIFReaderTests;
+			productReference = 559325AC1911ED6F00DBD6EE /* DTEXIFReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559325891911ED6F00DBD6EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Darktt Personal Company";
+				TargetAttributes = {
+					559325AB1911ED6F00DBD6EE = {
+						TestTargetID = 559325901911ED6F00DBD6EE;
+					};
+				};
+			};
+			buildConfigurationList = 5593258C1911ED6F00DBD6EE /* Build configuration list for PBXProject "DTEXIFReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 559325881911ED6F00DBD6EE;
+			productRefGroup = 559325921911ED6F00DBD6EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559325901911ED6F00DBD6EE /* DTEXIFReader */,
+				559325AB1911ED6F00DBD6EE /* DTEXIFReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5593258F1911ED6F00DBD6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5593259F1911ED6F00DBD6EE /* InfoPlist.strings in Resources */,
+				559325A71911ED6F00DBD6EE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559325AA1911ED6F00DBD6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559325B81911ED6F00DBD6EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5593258D1911ED6F00DBD6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559325A51911ED6F00DBD6EE /* DTAppDelegate.m in Sources */,
+				559325A11911ED6F00DBD6EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559325A81911ED6F00DBD6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559325BA1911ED6F00DBD6EE /* DTEXIFReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559325B21911ED6F00DBD6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559325901911ED6F00DBD6EE /* DTEXIFReader */;
+			targetProxy = 559325B11911ED6F00DBD6EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5593259D1911ED6F00DBD6EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5593259E1911ED6F00DBD6EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		559325B61911ED6F00DBD6EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559325B71911ED6F00DBD6EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559325BB1911ED6F00DBD6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		559325BC1911ED6F00DBD6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559325BE1911ED6F00DBD6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTEXIFReader/DTEXIFReader-Prefix.pch";
+				INFOPLIST_FILE = "DTEXIFReader/DTEXIFReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		559325BF1911ED6F00DBD6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTEXIFReader/DTEXIFReader-Prefix.pch";
+				INFOPLIST_FILE = "DTEXIFReader/DTEXIFReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		559325C11911ED6F00DBD6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DTEXIFReader.app/DTEXIFReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTEXIFReader/DTEXIFReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DTEXIFReaderTests/DTEXIFReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		559325C21911ED6F00DBD6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DTEXIFReader.app/DTEXIFReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTEXIFReader/DTEXIFReader-Prefix.pch";
+				INFOPLIST_FILE = "DTEXIFReaderTests/DTEXIFReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5593258C1911ED6F00DBD6EE /* Build configuration list for PBXProject "DTEXIFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559325BB1911ED6F00DBD6EE /* Debug */,
+				559325BC1911ED6F00DBD6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559325BD1911ED6F00DBD6EE /* Build configuration list for PBXNativeTarget "DTEXIFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559325BE1911ED6F00DBD6EE /* Debug */,
+				559325BF1911ED6F00DBD6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559325C01911ED6F00DBD6EE /* Build configuration list for PBXNativeTarget "DTEXIFReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559325C11911ED6F00DBD6EE /* Debug */,
+				559325C21911ED6F00DBD6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559325891911ED6F00DBD6EE /* Project object */;
+}
