@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5513816A1911F32600EABE0A /* DTEXIFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551381691911F32600EABE0A /* DTEXIFViewController.m */; };
 		559325951911ED6F00DBD6EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325941911ED6F00DBD6EE /* Foundation.framework */; };
 		559325971911ED6F00DBD6EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325961911ED6F00DBD6EE /* CoreGraphics.framework */; };
 		559325991911ED6F00DBD6EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325981911ED6F00DBD6EE /* UIKit.framework */; };
@@ -19,6 +20,9 @@
 		559325B01911ED6F00DBD6EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559325981911ED6F00DBD6EE /* UIKit.framework */; };
 		559325B81911ED6F00DBD6EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559325B61911ED6F00DBD6EE /* InfoPlist.strings */; };
 		559325BA1911ED6F00DBD6EE /* DTEXIFReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559325B91911ED6F00DBD6EE /* DTEXIFReaderTests.m */; };
+		559325C51911ED9700DBD6EE /* DTFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559325C41911ED9700DBD6EE /* DTFileViewController.m */; };
+		559325CB1911EE2D00DBD6EE /* DTFileController+ALAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 559325C81911EE2D00DBD6EE /* DTFileController+ALAssetsLibrary.m */; };
+		559325CC1911EE2D00DBD6EE /* DTFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559325CA1911EE2D00DBD6EE /* DTFileController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		551381681911F32600EABE0A /* DTEXIFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTEXIFViewController.h; sourceTree = "<group>"; };
+		551381691911F32600EABE0A /* DTEXIFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTEXIFViewController.m; sourceTree = "<group>"; };
 		559325911911ED6F00DBD6EE /* DTEXIFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTEXIFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559325941911ED6F00DBD6EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		559325961911ED6F00DBD6EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,12 @@
 		559325B51911ED6F00DBD6EE /* DTEXIFReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTEXIFReaderTests-Info.plist"; sourceTree = "<group>"; };
 		559325B71911ED6F00DBD6EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		559325B91911ED6F00DBD6EE /* DTEXIFReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTEXIFReaderTests.m; sourceTree = "<group>"; };
+		559325C31911ED9700DBD6EE /* DTFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFileViewController.h; sourceTree = "<group>"; };
+		559325C41911ED9700DBD6EE /* DTFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFileViewController.m; sourceTree = "<group>"; };
+		559325C71911EE2D00DBD6EE /* DTFileController+ALAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DTFileController+ALAssetsLibrary.h"; sourceTree = "<group>"; };
+		559325C81911EE2D00DBD6EE /* DTFileController+ALAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DTFileController+ALAssetsLibrary.m"; sourceTree = "<group>"; };
+		559325C91911EE2D00DBD6EE /* DTFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFileController.h; sourceTree = "<group>"; };
+		559325CA1911EE2D00DBD6EE /* DTFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFileController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +119,13 @@
 		5593259A1911ED6F00DBD6EE /* DTEXIFReader */ = {
 			isa = PBXGroup;
 			children = (
+				559325C61911EE2D00DBD6EE /* DTFileController */,
 				559325A31911ED6F00DBD6EE /* DTAppDelegate.h */,
 				559325A41911ED6F00DBD6EE /* DTAppDelegate.m */,
+				559325C31911ED9700DBD6EE /* DTFileViewController.h */,
+				559325C41911ED9700DBD6EE /* DTFileViewController.m */,
+				551381681911F32600EABE0A /* DTEXIFViewController.h */,
+				551381691911F32600EABE0A /* DTEXIFViewController.m */,
 				559325A61911ED6F00DBD6EE /* Images.xcassets */,
 				5593259B1911ED6F00DBD6EE /* Supporting Files */,
 			);
@@ -142,6 +159,17 @@
 				559325B61911ED6F00DBD6EE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559325C61911EE2D00DBD6EE /* DTFileController */ = {
+			isa = PBXGroup;
+			children = (
+				559325C71911EE2D00DBD6EE /* DTFileController+ALAssetsLibrary.h */,
+				559325C81911EE2D00DBD6EE /* DTFileController+ALAssetsLibrary.m */,
+				559325C91911EE2D00DBD6EE /* DTFileController.h */,
+				559325CA1911EE2D00DBD6EE /* DTFileController.m */,
+			);
+			path = DTFileController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				559325A51911ED6F00DBD6EE /* DTAppDelegate.m in Sources */,
+				559325CB1911EE2D00DBD6EE /* DTFileController+ALAssetsLibrary.m in Sources */,
+				559325C51911ED9700DBD6EE /* DTFileViewController.m in Sources */,
 				559325A11911ED6F00DBD6EE /* main.m in Sources */,
+				5513816A1911F32600EABE0A /* DTEXIFViewController.m in Sources */,
+				559325CC1911EE2D00DBD6EE /* DTFileController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DTEXIFReader/DTEXIFReader-Prefix.pch";
 				INFOPLIST_FILE = "DTEXIFReader/DTEXIFReader-Info.plist";
@@ -371,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DTEXIFReader/DTEXIFReader-Prefix.pch";
 				INFOPLIST_FILE = "DTEXIFReader/DTEXIFReader-Info.plist";
@@ -438,6 +472,7 @@
 				559325BF1911ED6F00DBD6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		559325C01911ED6F00DBD6EE /* Build configuration list for PBXNativeTarget "DTEXIFReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +481,7 @@
 				559325C21911ED6F00DBD6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,15 +7,25 @@
 //
 
 #import "DTAppDelegate.h"
+#import "DTFileViewController.h"
 
 @implementation DTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    DTFileViewController *fileViewController = [DTFileViewController instanceViewController];
+    
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:fileViewController];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    [self.window setRootViewController:navigation];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [navigation release];
+    
     return YES;
 }
 
