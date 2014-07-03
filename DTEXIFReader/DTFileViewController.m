@@ -47,7 +47,7 @@ static NSString *directoryPath = nil;
     
     directoryPath = [[NSString alloc] initWithString:[fileController documentPath]];
     
-    NSLog(@"Directory Path:%@", directoryPath);
+    NSLog(@"**** Directory Path: %@", directoryPath);
     
     NSArray *_fileList = [[DTFileController mainController] filesWithDirectoryPath:directoryPath];
     
